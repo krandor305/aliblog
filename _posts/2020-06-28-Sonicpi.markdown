@@ -7,12 +7,12 @@ categories: Sonic Pi
 Bonjour à tous,
 aujourd’hui nous allons parler de Sonic Pi, un logiciel de musique qui permet de créer des sons. Dans la lancée de la technologie le terme d’*algorave* est né. Une *algorave* est une soirée électronique dirigée par un DJ qui code sa musique en direct.
 
-1. Comment installer Sonic Pi ?
+1- Comment installer Sonic Pi ?
 
 Sonic Pi est simple à télécharger et disponible sur Windows, MacOS et Linux.
 Pour l’installer rien de simple, allez sur https://sonic-pi.net/ puis appuyez sur l’installateur du système d’exploitation de votre choix et la suite est assez clair il se télécharge comme tout autre logiciel.
 
-2. Comment utiliser Sonic Pi ?
+2- Comment utiliser Sonic Pi ?
 
 Après l’installation, lancez l’exécutable Sonic Pi. 
 Une interface vous sera affichée comme ceci :

@@ -13,7 +13,8 @@ Pour l’installer rien de simple, allez sur https://sonic-pi.net/ puis appuyez 
 
 2. Comment utiliser Sonic Pi ?
 
-Après l’installation, lancez l’exécutable Sonic Pi. Une interface vous sera affichée comme ceci :
+Après l’installation, lancez l’exécutable Sonic Pi. 
+Une interface vous sera affichée comme ceci :
 
 
 ![Sonic Pi]({{ site.baseurl }} /assets/capture.png "Interface de Sonic Pi")

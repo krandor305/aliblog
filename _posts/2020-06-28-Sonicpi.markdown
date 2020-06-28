@@ -17,7 +17,7 @@ Après l’installation, lancez l’exécutable Sonic Pi.
 Une interface vous sera affichée comme ceci :
 
 
-![Sonic Pi]({{ site.baseurl }} /assets/capture.png "Interface de Sonic Pi")
+![Sonic Pi](https://github.com/krandor305/aliblog/blob/master/assets/Capture.PNG?raw=true "Interface de Sonic Pi")
 
 L’interface est explicite, il suffit de taper son code et d’appuyer sur **RUN** en haut à gauche.
 

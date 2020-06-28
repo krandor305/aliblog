@@ -1,0 +1,57 @@
+I"+<p>Bonjour à tous,
+Aujourd’hui nous allons parler de Sonic Pi, un logiciel de musique qui permet de crée des sons.Dans la lancée de la technologie le terme d’algorave est né. Une algorave est une soirée électronique dirigée par un DJ qui code sa musique en direct.</p>
+<ol>
+  <li>Comment installer Sonic Pi ?</li>
+</ol>
+
+<p>Sonic Pi est simple à télécharger et disponible sur Windows, MacOS et Linux.
+Pour l’installer rien de simple, allez sur https://sonic-pi.net/ puis appuyez sur l’installateur du système d’exploitation de votre choix et la suite est assez clair il se télécharge comme tout autre logiciel.</p>
+
+<ol>
+  <li>Comment utiliser Sonic Pi ?
+Après l’installation, lancez l’exécutable Sonic Pi. Une interface vous sera affichée comme ceci :</li>
+</ol>
+
+<p><img src="/assets/capture.png" alt="Sonic Pi" title="Interface de Sonic Pi" /></p>
+
+<p>L’interface est explicite, il suffit de taper son code et d’appuyer sur <strong>RUN</strong> en haut à gauche.</p>
+
+<p>Passons à la partie la plus importante :le code. Grace à la simplicité de l’interface, un tutoriel au bas de celle-ci est proposé pour le code, celui-ci contient toutes les informations possibles pour réaliser vos musiques</p>
+
+<p>Pour ma part voici mon code :</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">live_loop</span> <span class="ss">:drums</span> <span class="k">do</span>
+  <span class="n">sample</span> <span class="ss">:drum_bass_hard</span>
+  <span class="nb">sleep</span> <span class="mf">0.5</span>
+  <span class="n">sample</span> <span class="ss">:drum_bass_soft</span>
+  <span class="nb">sleep</span> <span class="mf">0.5</span>
+<span class="k">end</span>
+
+<span class="n">live_loop</span> <span class="ss">:sound1</span> <span class="k">do</span>
+  <span class="n">with_fx</span> <span class="ss">:distortion</span> <span class="k">do</span>
+    <span class="n">play</span> <span class="mi">50</span>
+    <span class="nb">sleep</span> <span class="mf">0.5</span>
+    <span class="n">play</span> <span class="mi">54</span>
+    <span class="nb">sleep</span> <span class="mf">0.5</span>
+    <span class="n">play</span> <span class="mi">56</span>
+    <span class="nb">sleep</span> <span class="mf">0.5</span>
+    <span class="n">play</span> <span class="mi">60</span>
+    <span class="nb">sleep</span> <span class="mf">0.5</span>
+    <span class="n">play</span> <span class="mi">56</span>
+    <span class="nb">sleep</span> <span class="mf">0.5</span>
+    <span class="n">play</span> <span class="mi">53</span>
+    <span class="nb">sleep</span> <span class="mf">0.5</span>
+    <span class="n">play</span> <span class="mi">54</span>
+    <span class="nb">sleep</span> <span class="mf">0.5</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div></div>
+
+<p>Ce code contient deux <em>live_loops</em> donc deux sons qui se lancent en même temps et sans contraintes de temps. Ces loops ou boucles sont en fait des conteneurs de code qui passent indéfiniment. Le code à l’intérieur de la loop produit la musique.
+Je vous invite à essayer mon code sur votre interface Sonic Pi, en le copiant dans celle-ci puis en appuyant sur run,tout ca sans oublier de mettre votre volume à fond bien sur.
+La première loop contient le son de la batterie, le sample est un son pré établis par Sonic Pi et sleep et une procédure d’attente avant de passer à la prochaine procédure.
+Enfin la seconde loop est notre musique. Celle-ci contient un effet <em>with_fx</em> qui s’apparente à un effet affectant tous les sons à l’intérieur De lui-même (play à l’intérieur de <em>with_fx</em>). Finalement, <em>Play</em> permet de jouer des Beep, voyez les Beep comme des touches de piano déterminés par un nombre et plus ce nombre est petit plus le Beep s’approche du côté gauche du piano.</p>
+
+<p>Pour clôturer le tout, je tiens à vous préciser que les conteneurs se finissent tous avec un <em>end</em> et les procédures à l’intérieur d’un conteneur ont une tabulation (un espace) de plus que la détermination du conteneur dans lequel ils sont. Par exemple, dans la deuxième Loop dénommée sound1, nous pouvons remarquer que par la suite <em>with_fx</em> est à l’interieur de la loop car il a un espace de plus que la détermination du live Loop donc l’effet <em>with_fx</em> est à l’intérieur de la live loop et ainsi les play et sleep sont à l’intérieur du <em>with_fx</em> qui est à son tour à l’intérieur de la <em>live_loop</em>.
+Je vous invite à essayer tout d’abord le code sur votre sonic pi puis d’essayer de comprendre l’utilité de chaque live Loop puis de l’élément à l’intérieur et ainsi de suite. Vous pouvez aussi ajouter des procédures grâce au tutoriel comme mentionné précédemment au bas de l’interface.</p>
+:ET

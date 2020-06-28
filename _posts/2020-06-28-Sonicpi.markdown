@@ -10,7 +10,7 @@ aujourd’hui nous allons parler de Sonic Pi, un logiciel de musique qui permet 
 1- Comment installer Sonic Pi ?
 
 Sonic Pi est simple à télécharger et disponible sur Windows, MacOS et Linux.
-Pour l’installer rien de simple, allez sur https://sonic-pi.net/ puis appuyez sur l’installateur du système d’exploitation de votre choix et la suite est assez clair il se télécharge comme tout autre logiciel.
+Pour l’installer rien de plus simple, allez sur https://sonic-pi.net/ puis appuyez sur l’installateur du système d’exploitation de votre choix et la suite est assez clair il se télécharge comme tout autre logiciel.
 
 2- Comment utiliser Sonic Pi ?
 

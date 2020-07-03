@@ -35,7 +35,7 @@ Procédure Fonction(n):
 
 	Si n est égal à 3 alors :
 
-		Retourner la valeur de l’indice n (soit 30)
+		Retourner la valeur de l’indice n 
 
 	Sinon :
 

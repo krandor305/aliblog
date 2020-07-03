@@ -5,7 +5,7 @@ date:   2020-07-03 00:00:00 +0530
 categories: Algorithmes Concepts
 ---
 
-La récursivité est l’appel d’une fonction à l’intérieur d’elle-même. C’est un élément très important à la fois en programmation car il permet la répétition de la même fonction pour résoudre un problème mais c’est aussi une maniéré de penser pour résoudre un problème.Tout ceci est vague ? Pas de panique, cet article vous explique ce concept d’une manière simple et grâce à un exemple détaillé.
+La récursivité est l’appel d’une fonction à l’intérieur d’elle-même. C’est un élément très important à la fois en programmation car il permet la répétition de la même fonction pour résoudre un problème mais c’est aussi une manière de penser pour résoudre un problème.Tout ceci est vague ? Pas de panique, cet article vous explique ce concept d’une manière simple et grâce à un exemple détaillé.
 
 ## Entamons un exemple : 
 

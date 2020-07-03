@@ -54,7 +54,6 @@
         {{ content }}
       </section>
     </main>
-    {%- if site.plainwhite.analytics_id -%}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
       
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171551378-1"></script>
@@ -66,6 +65,5 @@
         gtag('config', 'UA-171551378-1');
       </script>
 
-    {%- endif -%}
   </body>
 </html>

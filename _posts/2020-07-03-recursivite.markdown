@@ -64,4 +64,4 @@ Je vous invite à simuler la Procédure/l'algorithme Fonction(1) comme si vous �
 
 ## Conclusion :
 
-Dans notre cas, la récursivité a été utilisé pour calculer une somme qui peut être calculée plus simplement avec la formule 10+20+30. Je dis cela pour préciser que cet article était une explication de la recursivité avec un exemple facile. Dans d’autres cas,la récursivité est un outil indispensable pour tout codeur,que ce soit pour la suite de fibonnaci ou pour afficher des permutations.
+Dans notre cas, la récursivité a été utilisé pour calculer une somme qui peut être calculer plus simplement avec la formule 10+20+30. Je dis cela pour préciser que cet article était une explication de la recursivité avec un exemple facile. Dans d’autres cas,la récursivité est un outil indispensable pour tout codeur,que ce soit pour la suite de fibonnaci ou pour afficher des permutations.

@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "La recursivité"
+date:   2020-11-03 00:00:00 +0530
+categories: Annonce
+---
+
+Je vous ai manqué je sais, je devais finaliser certaines obligations ces derniers mois mais pas de panique je suis définitivement de retour !
+Après avoir clos ce chapitre de ma vie, je passe finalement à autre chose. Tellement de nouvelles pédagogies et de nouvelles disciplines que je veux partager avec le monde et surtout le faire à l’écrit pour m’améliorer à écrire (logiquement !).
+Je vais donc vous résumer en quelques points en quoi consisterons les prochaines publications :
+
+## Compétitions de programmation : 
+
+Le competitive programming est un sport qui concerne des compétitions de programmation informatique. C’est assez cru comme définition mais un exemple de compétition est de programmer le maximum de solutions à 6 problèmes. Par la suite, le score est attribué à chaque participant selon la qualité de son code et le temps de résolution de celui-ci.
+Sachez donc que je m’y suis mis aussi, mais pour le moment il faut que je pratique plus pour monter en niveau et pourquoi ne pas devenir le meilleur programmeur au monde. J’en parle donc sur cet article car mes futures publications parlerons de problèmes que j’aurai pu résoudre dans ce même domaine et les expliquer ne serait que d’autant mieux pour m’améliorer à l’écriture mais aussi à effectuer la reconnue méthode de Feynman.
+
+## Mystères d’internet : 
+
+Cette rubrique risque de beaucoup plus vous intéressé. Comme vous le savez internet est une toile énorme voir même gigantesque qui contient des secrets, des mots de passe mais aussi des défis très étranges lancées par des organisations encore plus étranges pour recruter des personnes bien plus glauques.
+
+Je vous sens intéressés, accrochez-vous car le prochain article parlera de Cicada 3301, un des mystères les plus répandues sur internet. Vous l’aurez deviné il s’agit bien d’un défi à l’échelle internationale. Nous le décrypterons ensemble dans un prochain article.
+
+## Divers : 
+
+Les divers seront un type d’article comme celui-ci soit à but informatif ou explorateur. Dernièrement je me suis essayé à plusieurs technologies et programmes assez intéressant comme l’article sur Sonic PI, le langage pour produire de la musique.
+
+Bon Confinement à tous et joyeuses élections américaines !
